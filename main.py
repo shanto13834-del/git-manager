@@ -33,11 +33,11 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Essential: Get Bot Token
-TOKEN = os.getenv('8738964867:AAHK1Rv19hEvCdpZN6R1dUBc8yqxYjSBKvk')
-if not TOKEN or TOKEN == "8738964867:AAHK1Rv19hEvCdpZN6R1dUBc8yqxYjSBKvk":
-    TOKEN = "8738964867:AAHK1Rv19hEvCdpZN6R1dUBc8yqxYjSBKvk"
+TOKEN = os.getenv('8738964867:AAFOVOIUCb57sf-U6T6cNCVGLSawavPMTpA')
+if not TOKEN or TOKEN == "8738964867:AAFOVOIUCb57sf-U6T6cNCVGLSawavPMTpA":
+    TOKEN = "8738964867:AAFOVOIUCb57sf-U6T6cNCVGLSawavPMTpA"
 
-API_BASE_URL = os.getenv('JWT_API_URL', 'https://frexy-jwt-gen.vercel.app/token')
+API_BASE_URL = os.getenv('JWT_API_URL', 'https://token-gen-frexy.vercel.app/token')
 API_KEY = os.getenv('JWT_API_KEY', '')
 
 MAX_FILE_SIZE = int(os.getenv('MAX_FILE_SIZE', 5 * 1024 * 1024))
