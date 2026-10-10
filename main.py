@@ -33,9 +33,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Essential: Get Bot Token
-TOKEN = os.getenv('8738964867:AAFOVOIUCb57sf-U6T6cNCVGLSawavPMTpA')
-if not TOKEN or TOKEN == "8738964867:AAFOVOIUCb57sf-U6T6cNCVGLSawavPMTpA":
-    TOKEN = "8738964867:AAFOVOIUCb57sf-U6T6cNCVGLSawavPMTpA"
+TOKEN = os.getenv('8738964867:AAEcX1vKJeuCJxf4nRwO5nQH8pzMIgKxDvA')
+if not TOKEN or TOKEN == "8738964867:AAEcX1vKJeuCJxf4nRwO5nQH8pzMIgKxDvA":
+    TOKEN = "8738964867:AAEcX1vKJeuCJxf4nRwO5nQH8pzMIgKxDvA"
 
 API_BASE_URL = os.getenv('JWT_API_URL', 'https://token-gen-frexy.vercel.app/token')
 API_KEY = os.getenv('JWT_API_KEY', '')
